@@ -25,11 +25,13 @@ int pow(int a, int n) {
 
 int main() {
     int a, n;
+    cout << "Enter the A value: ";
     cin >> a;
+    cout << "Enter the N value: ";
     cin >> n;
 
     int res = pow(a, n);
-    cout << res << endl;
+    cout << "The result is" <<  res << endl;
 
     return 0;
 }
